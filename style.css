@@ -1,3 +1,12 @@
 body {
     background-color: teal;
 }
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 15%;
+    color: white;
+    padding: 20px;
+    background-color: magenta;
+}
