@@ -28,6 +28,3 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-.header a {
-    padding-left: 150px;
-}
