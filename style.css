@@ -7,6 +7,12 @@ p {
     margin: 0;
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
 	padding: 0 150px;
 }
