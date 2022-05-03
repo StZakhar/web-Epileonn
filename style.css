@@ -33,4 +33,18 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+
+.logo {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.logo h3:nth-child(1) {
+    background: #44BCFF;
+    border-radius: 20px 0;
+    padding: 10px 18px;
+    font-size: 28px;
+    color: white;
 }
