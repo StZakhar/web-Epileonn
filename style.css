@@ -99,5 +99,4 @@ body {
 }
 .intro__right {
     background: url('./back_intro_right.png') no-repeat 0 100%/ 100%;
-    z-index: -1;
 }
