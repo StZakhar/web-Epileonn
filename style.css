@@ -46,6 +46,10 @@ a {
 }
 
 .intro {
+    background-color: rgba(68, 188, 255, 0.5);
+}
+
+.intro__main {
     display: flex;
     justify-content: space-around;
     align-items: center;
