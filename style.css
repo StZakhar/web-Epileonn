@@ -13,10 +13,14 @@ a {
     color: black;
 }
 
-body {
-	padding: 0 150px;
-}
 .header {
+    background-color: rgba(68, 188, 255, 0.05);
+}
+
+.wrapper {
+    padding: 0 150px;
+}
+.header__main {
     padding-top: 51px;
     display: flex;
     justify-content: space-between;
