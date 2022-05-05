@@ -52,7 +52,7 @@ a {
 
 .intro__main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-top: 148px;
 }
@@ -94,11 +94,13 @@ a {
     height: 62px;
     background: #44BCFF;
     border-radius: 12px;
-    color: white;
-    font-family: 'Nunito Sans';
-    font-size: 18px;
     border: none;
     cursor: pointer;
+}
+
+.intro__btn a {
+    color: white;
+    font-size: 18px;
 }
 .intro__btn2 {
     margin-top: 32px;
@@ -118,7 +120,7 @@ a {
     text-decoration: underline;
 }
 .intro__right {
-    background: url('./back_intro_right.png') no-repeat 0 100%/ 100%;
+    background: url('./img/back_intro_right.png') no-repeat 0 100%/ 100%;
 }
 
 
@@ -183,6 +185,65 @@ a {
     padding: 2px 0 0 35px;
 }
 
+.technical {
+    background-color: #44BCFF0D;
+    width: 100%;
+}
+
+.technical__main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.technical__left {
+    margin-right: 80px;
+}
+
+.technical__left h2 {
+    font-size: 48px;
+    margin-bottom: 81px;
+}
+
+.technical__left p {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+    padding-top: 16px;
+}
+
+.reminder {
+    font-size: 10px;
+    padding-top: 38px;
+}
+
+.technical__right {
+    background: url(./img/technical__background.png) no-repeat 0 100%/ 100%;
+    padding-top: 264px;
+}
+
+.parts__main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.parts__left {
+    margin-right: 79px;
+}
+
+.parts__right h2 {
+    font-size: 48px;
+    margin-bottom: 81px;
+    padding-top: 77px;
+}
+
+.parts__right p {
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+    padding-top: 16px;
+}
 
 .service {
     padding: 0;
