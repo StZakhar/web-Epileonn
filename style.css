@@ -34,6 +34,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .intro {
     display: flex;
     justify-content: space-around;
@@ -99,4 +100,66 @@ body {
 }
 .intro__right {
     background: url('./back_intro_right.png') no-repeat 0 100%/ 100%;
+=======
+
+
+.benefits {
+    display: flex;
+}
+
+.img__benefits {
+    padding: 70px 0 0px 0;
+}
+
+
+.left__side p {
+    padding: 15px 0 63px 0;
+    font-size: 10px;
+}
+
+
+.right__side {
+    padding: 90px 0 60px 80px;
+}
+
+
+.description h1  {
+    font-size: 48px;
+    padding-left: 35px;
+}
+
+
+.description h2 {
+    font-size: 18px;
+    color: #535353;
+    padding-top: 22px;
+    padding-left: 35px;
+}
+
+
+.description::after {
+    content: url(./img/group__circles.png);
+    position: absolute;
+    top: 180px;
+    right: 305px;
+    z-index: -1;
+}
+
+
+.description__benefit {
+    padding-top: 22px;
+}
+
+
+.description p {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+    padding-top: 16px;
+}
+
+
+.description__benefit article {
+    padding: 2px 0 0 35px;
 }
