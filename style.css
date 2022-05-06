@@ -8,9 +8,9 @@ p {
     padding: 0;
 }
 
-a {
+.header__contact a {
     text-decoration: none;
-    color: black;
+    color: #8B8B8B;
 }
 
 .header {
@@ -114,7 +114,7 @@ a {
     border: 2px solid #44BCFF;
     cursor: pointer;
 }
-.intro__left a {
+.tittle a {
     padding-top: 32px;
     font-size: 10px;
     text-decoration: underline;
@@ -226,6 +226,8 @@ a {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    padding-top: 77px;
+    margin-bottom: 106px;
 }
 
 .parts__left {
@@ -484,4 +486,22 @@ a {
 .buy__rent-btn2 a {
     color: #44BCFF;
     font-size: 18px;
+}
+
+.reviews h2 {
+    font-size: 48px;
+    line-height: 64px;
+    margin-left: 187px;
+}
+
+.reviews {
+    padding-top: 128px;
+    background-color: #44BCFF0D;
+    width: 100%;
+}
+
+.reviews__main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
