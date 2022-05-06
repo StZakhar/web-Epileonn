@@ -547,6 +547,13 @@ footer {
     border-top: #00000033 1px solid;
     padding-top: 12px;
     color: #8B8B8B;
+    font-size: 10px;
+}
+
+
+.develop-and-design :nth-child(2) {
+    color: #8B8B8B;
+    font-size: 10px;
 }
 
 
