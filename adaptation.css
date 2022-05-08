@@ -1,0 +1,14 @@
+@media screen and (max-width: 375px) {
+    
+    .header__main ul {
+        display: none;
+    }
+    .header__contact {
+        display: none;
+    } 
+    header :nth-child(1) {
+        position: absolute;
+        right: 50px; 
+        top: 10px;
+    }
+}
