@@ -72,17 +72,26 @@ p {
     max-height: 121px;
     background: url(./img/pic.png) no-repeat top left/ contain;
 }
+.intro__main::after {
+    content: url(./img/group__circles-mobile.png);
+    position: absolute;
+    top: 23%;
+    left: 5%;
+    visibility: hidden;
+}
 .intro__left h2 {
     font-family: 'Nunito';
     font-weight: 400;
     font-size: 36px;
+    color: #06060D;
 }
 .intro__left h3 {
     font-family: 'Nunito Sans';
     font-size: 58px;
     padding-top: 15px;
+    color: #27292E;
 }
-.intro__left p {
+.intro__left :nth-child(5) {
     font-family: 'Outfit';
     font-size: 18px;
     padding-top: 32px;
@@ -139,6 +148,20 @@ p {
 }
 
 
+.left__side h1 {
+    font-size: 28px;
+    color: #27292E;
+    display: none;
+}
+
+
+.left__side h2 {
+    font-size: 14px;
+    color: #535353;
+    display: none;
+}
+
+
 .right__side {
     padding: 90px 0 60px 80px;
 }
@@ -147,6 +170,7 @@ p {
 .description h1  {
     font-size: 48px;
     padding-left: 35px;
+    color: #27292E;
 }
 
 
@@ -164,6 +188,16 @@ p {
     top: 1025px;
     right: 260px;
     z-index: -1;
+}
+
+
+.left__side h1::after {
+    content: url(./img/group__circles-mobile.png);
+    position: absolute;
+    top: 890px;
+    right: 280px;
+    z-index: -1;
+    visibility: hidden;
 }
 
 
@@ -252,7 +286,6 @@ p {
     margin: 0;
     width: 100%;
     background-color: #44BCFF0D;
-
 }
 
 
@@ -277,6 +310,7 @@ p {
     column-gap: 37px;
     justify-content: center;
     padding-top: 70px;
+    margin-left: 25px;
 }
 
 
@@ -286,6 +320,7 @@ p {
     margin-top: 52px;
     justify-content: center;
     padding-bottom: 93px;
+    margin-left: 25px;
 }
 
 
@@ -332,6 +367,7 @@ p {
 
 .service__block-p {
     padding: 81px 39px 0px 326px;
+    
 }
 
 
@@ -408,6 +444,7 @@ p {
 .buy-rent h1 {
     font-size: 48px;
     padding: 80px 150px 0 834px;
+    color: #27292E;
 }
 
 
@@ -417,6 +454,16 @@ p {
     z-index: -1;
     left: 1200px;
     top: 2925px;
+}
+
+/* покупка и аренда, псевдоэлемент мелкие круги  */
+.buy-rent h1::before {
+    content: url(./img/group__circles-mobile.png);
+    position: absolute;
+    z-index: -1;
+    top: 5240px;
+    right: 280px;
+    display: none;
 }
 
 
@@ -430,6 +477,33 @@ p {
 .buy__rent {
     display: flex;
     flex-direction: column;
+}
+
+/* покупка и аренда, псевдоэлемент для первой машины */
+.buy__rent::after {
+    content: '';
+    position: absolute;
+    background-color: #44BCFF0D;
+    width: 300px;
+    height: 336px;
+    border-radius: 122px 0;
+    top: 5375px;
+    z-index: -1;
+    display: none;
+}
+
+/* покупка и аренда, псевдоэлемент для второй машины */
+.service::after {
+    content: '';
+    position: absolute;
+    background-color: #44BCFF0D;
+    width: 300px;
+    height: 336px;
+    border-radius: 122px 0;
+    top: 5970px;
+    right: 50px;
+    z-index: -1;
+    display: none;
 }
 
 
