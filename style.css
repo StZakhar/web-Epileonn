@@ -161,6 +161,9 @@ a {
     padding-left: 35px;
 }
 
+.burger {
+    display: none;
+}
 
 .description h2 {
     font-size: 18px;
