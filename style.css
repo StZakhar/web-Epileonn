@@ -608,11 +608,8 @@ a {
 
 footer {
     background-color: #44BCFF0D;
-    height: 435px;
-    display: flex;
+    padding-top: 88px;
 }
-
-
 
 .footer__logo-block {
     margin-left: 150px;
@@ -647,19 +644,16 @@ footer {
     padding-top: 12px;
     color: #8B8B8B;
     font-size: 10px;
+    margin-left: 150px;
+    padding-bottom: 61px;
 }
-
-
-.develop-and-design :nth-child(2) {
-    color: #8B8B8B;
-    font-size: 10px;
-}
-
 
 .footer__menu  {
     width: 160px;
     height: 270px;
-    margin: 60px 93px 109px 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -686,9 +680,9 @@ footer {
 
 
 .footer__contacts  {
-    width: 166px;
-    height: 210px;
-    margin: 60px 0px 165px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -707,6 +701,19 @@ footer {
     justify-content: space-around;
     font-size: 18px;
     color: #70737C;
+}
+.footer__contain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer__main__contacts {
+    display: flex;
+    justify-content: center;
+    padding-top: 61px;
+    align-items: baseline;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 
 .form {
