@@ -196,6 +196,7 @@
     .technical__right2 {
 
     }
+
     .wrapper {
         padding: 0;
         margin: 0;
@@ -969,4 +970,254 @@
         padding-right: 38px;
         padding-left: 24px;
         }
+
+        .reminder {
+            opacity: 0;
+        }
+        
+        .technical__right {
+            background: url(./img/technical__background.png) no-repeat 0 100%/ 100%;
+            padding-top: 0;
+            display: none;
+        }
+        .parts {
+            display: flex;
+            justify-content: center;
+        }
+        .parts__main {
+            display: flex;
+            align-items: center;
+            flex-direction: column-reverse;
+        }
+        
+        .parts__left img {
+            width: 325px;
+            height: 356.87px;
+        }
+        .parts__left {
+            width: 325px;
+            height: 356.87px;
+            margin: 0;
+        }
+    
+        .parts__right {
+            padding-left: 25px;
+        }
+        
+        .parts__right h2 {
+            font-size: 28px;
+            padding-top: 53px;
+            padding-bottom: 51px;
+            margin: 0;
+        }
+        
+        .parts__right p {
+            display: flex;
+            align-items: center;
+        }
+        .reviews h2 {
+            font-size: 28px;
+            line-height: 64px;
+            margin-left: 0;
+        }
+        
+        .reviews {
+            padding-top: 66px;
+        }
+        
+        .reviews__main {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .header__reviews {
+            display: flex;
+        }
+        
+        .reviews__diana {
+            width: 399px;
+            height: 399px;
+            border-radius: 18px;
+            background-color: #FFFFFF;
+            margin: 40px;
+        }
+        
+        .contain__reviews img {
+            width: 66px;
+            height: 66px;
+            padding: 0px 20px 28px 40px;
+        }
+        
+        .pharagraf__name {
+            font-weight: 700;
+            font-size: 24px;
+        }
+        
+        .pharagraf__contacts {
+            font-weight: 400;
+            font-size: 14px;
+            color: rgba(0, 37, 51, 0.6);
+        }
+        
+        .reviews__text {
+            width: 319px;
+            height: 180px;
+            font-size: 14px;
+            color: rgba(0, 37, 51, 0.6);
+            line-height: 30px;
+            text-align: center;
+            padding-top: 10px;
+        } 
+        
+        .contain__reviews {
+            width: 319px;
+            height: 340px;
+            padding: 40px 40px;
+            padding-top: 40px;
+            background: url(./img/reviews__stars.png) no-repeat 37px 343px;
+        }
+        
+        .reviews__elmira {
+            width: 399px;
+            height: 399px;
+            border-radius: 18px;
+            background-color: #FFFFFF;
+            margin: 40px;
+        }
+        
+        .reviews__sultan {
+            width: 399px;
+            height: 399px;
+            border-radius: 18px;
+            background-color: #FFFFFF;
+            margin: 40px;
+        }
+        
+        .reviews__nadejda {
+            width: 399px;
+            height: 399px;
+            border-radius: 18px;
+            background-color: #FFFFFF;
+            margin: 40px;
+        }
+        
+        .reviews__main__block1 {
+            padding-top: 0px;
+        }
+        
+        .reviews__main__block2 {
+            padding-top: 0px;
+            margin-top: -40px;
+        }
+
+        footer {
+            background-color: #44BCFF0D;
+            padding-top: 51px;
+        }
+        
+        .footer__logo-block {
+            margin-left: 24px;
+        }
+        
+        
+        .footer__logo-text {
+            font-size: 20px;
+            padding-top: 27.77px;
+            color: #585C65;
+        }
+        
+        
+        .footer__social {
+            padding: 20px 0 30px 0;
+            display: flex;
+            column-gap: 28px;
+            font-size: 14px;
+        }
+        
+        
+        .footer__social a {
+            color: #44BCFF;
+        }
+        
+        
+        .develop-and-design {
+            width: 162px;
+            height: 48px;
+            border-top: #00000033 1px solid;
+            padding-top: 12px;
+            color: #8B8B8B;
+            font-size: 10px;
+            margin-left: 24px;
+            padding-bottom: 65px;
+        }
+        
+        .footer__menu  {
+            width: 160px;
+            height: 270px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        
+        .footer__menu p {
+            font-size: 20px;
+            color: #40434A;
+        }
+        
+        
+        .footer__menu ul {
+            padding-top: 30px;
+            list-style: none;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-size: 18px;
+        }
+        
+        
+        .footer__menu ul li a {
+            color: #70737C;
+        }
+        
+        
+        .footer__contacts  {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        
+        .footer__contacts p {
+            font-size: 20px;
+            color: #40434A;
+        }
+        
+        
+        .footer__contacts ul {
+            padding-top: 30px;
+            list-style: none;
+            height: 148px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-size: 18px;
+            color: #70737C;
+        }
+        .footer__contain {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .footer__main__contacts {
+            display: flex;
+            justify-content: center;
+            padding-top: 38px;
+            align-items: baseline;
+            padding-right: 38px;
+            padding-left: 24px;
+            }
+>>>>>>> a56bff1938e7fd107b9b93cf1aca4f8eb2b9e751
 }
