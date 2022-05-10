@@ -180,6 +180,7 @@
     .technical__right2 {
 
     }
+
     .wrapper {
         padding: 0;
         margin: 0;
@@ -676,8 +677,6 @@
             display: flex;
             align-items: center;
         }
-<<<<<<< HEAD
-
         .reviews h2 {
             font-size: 28px;
             line-height: 64px;
@@ -685,15 +684,7 @@
         }
         
         .reviews {
-            padding-top: 128px;
-=======
-<<<<<<< HEAD
-
-=======
-        footer {
->>>>>>> fb58b821aa61d8c90c68d4f4b8e461c1dea4b32d
-            background-color: #44BCFF0D;
-            width: 100%;
+            padding-top: 66px;
         }
         
         .reviews__main {
@@ -774,11 +765,12 @@
         }
         
         .reviews__main__block1 {
-            padding-top: 161px;
+            padding-top: 0px;
         }
         
         .reviews__main__block2 {
-            padding-top: 82px;
+            padding-top: 0px;
+            margin-top: -40px;
         }
 
         footer {
@@ -889,5 +881,4 @@
             padding-right: 38px;
             padding-left: 24px;
             }
->>>>>>> 4db1a33da4ee00ae24f97ff216b2f24567db2635
 }
