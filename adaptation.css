@@ -298,12 +298,108 @@
             display: flex;
             align-items: center;
         }
+
+        .reviews h2 {
+            font-size: 28px;
+            line-height: 64px;
+            margin-left: 0;
+        }
+        
+        .reviews {
+            padding-top: 128px;
+            background-color: #44BCFF0D;
+            width: 100%;
+        }
+        
+        .reviews__main {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .header__reviews {
+            display: flex;
+        }
+        
+        .reviews__diana {
+            width: 399px;
+            height: 399px;
+            border-radius: 18px;
+            background-color: #FFFFFF;
+            margin: 40px;
+        }
+        
+        .contain__reviews img {
+            width: 66px;
+            height: 66px;
+            padding: 0px 20px 28px 40px;
+        }
+        
+        .pharagraf__name {
+            font-weight: 700;
+            font-size: 24px;
+        }
+        
+        .pharagraf__contacts {
+            font-weight: 400;
+            font-size: 14px;
+            color: rgba(0, 37, 51, 0.6);
+        }
+        
+        .reviews__text {
+            width: 319px;
+            height: 180px;
+            font-size: 14px;
+            color: rgba(0, 37, 51, 0.6);
+            line-height: 30px;
+            text-align: center;
+            padding-top: 10px;
+        } 
+        
+        .contain__reviews {
+            width: 319px;
+            height: 340px;
+            padding: 40px 40px;
+            padding-top: 40px;
+            background: url(./img/reviews__stars.png) no-repeat 37px 343px;
+        }
+        
+        .reviews__elmira {
+            width: 399px;
+            height: 399px;
+            border-radius: 18px;
+            background-color: #FFFFFF;
+            margin: 40px;
+        }
+        
+        .reviews__sultan {
+            width: 399px;
+            height: 399px;
+            border-radius: 18px;
+            background-color: #FFFFFF;
+            margin: 40px;
+        }
+        
+        .reviews__nadejda {
+            width: 399px;
+            height: 399px;
+            border-radius: 18px;
+            background-color: #FFFFFF;
+            margin: 40px;
+        }
+        
+        .reviews__main__block1 {
+            padding-top: 161px;
+        }
+        
+        .reviews__main__block2 {
+            padding-top: 82px;
+        }
+
         footer {
             background-color: #44BCFF0D;
             padding-top: 51px;
         }
-        
-        
         
         .footer__logo-block {
             margin-left: 24px;
