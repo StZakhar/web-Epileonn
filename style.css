@@ -866,3 +866,29 @@ footer {
     cursor: pointer;
     color: #44BCFF;
 }
+
+.error {
+    width: 100%;
+    height: 60vh;
+    background-color: #44BCFF0D;
+}
+
+.error_contain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error_contain h3 {
+    padding-top: 110px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.error_contain h2 {
+    padding-top: 110px;
+    font-weight: 400;
+    font-size: 500px;
+    background: url(./img/error_smaile.png) no-repeat center center/ 6%;
+}
