@@ -85,13 +85,13 @@ a {
     visibility: hidden;
 }
 .intro__left h2 {
-    font-family: 'Nunito';
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 36px;
     color: #06060D;
 }
 .intro__left h3 {
-    font-family: 'Nunito Sans';
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 58px;
     padding-top: 15px;
     color: #27292E;
@@ -103,7 +103,7 @@ a {
 
 }
 .intro__left :nth-child(5) {
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
     font-size: 18px;
     line-height: 180%;
     color: #4D4D4D;
@@ -123,6 +123,7 @@ a {
 .intro__btn a {
     color: white;
     font-size: 18px;
+    font-weight: 900;
 }
 .intro__btn2 {
     margin-top: 32px;
@@ -130,10 +131,10 @@ a {
     height: 62px;
     background: white;
     border-radius: 12px;
-    font-family: 'Nunito Sans';
     font-size: 18px;
     border: 2px solid #44BCFF;
     cursor: pointer;
+    font-weight: 900;
 }
 
 .intro__btn2 a {
@@ -169,6 +170,7 @@ a {
     font-size: 28px;
     color: #27292E;
     display: none;
+    position: relative;
 }
 
 
@@ -176,6 +178,7 @@ a {
     font-size: 14px;
     color: #535353;
     display: none;
+    font-weight: 400;
 }
 
 
@@ -240,7 +243,7 @@ a {
 }
 
 .technical {
-    background-color: #44BCFF0D;
+    /*background-color: #44BCFF0D;*/
     width: 100%;
 }
 
@@ -248,6 +251,7 @@ a {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    padding-bottom: 90px;
 }
 
 .technical__left {
@@ -271,13 +275,13 @@ a {
     padding-top: 38px;
 }
 .technical__right2 {
-    background: url(./img/technical__background.png) no-repeat 0 100%/ 100%;
+    /*background: url('./img/technical__background.png') no-repeat 0 100%/ 100%;*/
     /* padding-top: 264px; */
     display: none;
 }
 
 .technical__right {
-    background: url(./img/technical__background.png) no-repeat 0 100%/ 100%;
+    /*background: url('./img/technical__background.png') no-repeat 0 100%/ 100%;*/
     padding-top: 264px;
 }
 
@@ -292,7 +296,9 @@ a {
 .parts__left {
     margin-right: 79px;
 }
-
+.parts__left2 {
+    display: none;
+}
 .parts__right h2 {
     font-size: 48px;
     margin-bottom: 81px;
@@ -322,7 +328,7 @@ a {
 
 
 .service h1::after {
-    content: url(./img/group__circles.png);
+    content: url('./img/group__circles.png');
     position: absolute;
     right: 1265px;
     top: 1800px;
@@ -474,7 +480,7 @@ a {
 
 
 .buy-rent h1::after {
-    content: url(./img/group__circles.png);
+    content: url('./img/group__circles.png');
     position: absolute;
     z-index: -1;
     left: 1200px;
@@ -483,7 +489,7 @@ a {
 
 /* покупка и аренда, псевдоэлемент мелкие круги  */
 .buy-rent h1::before {
-    content: url(./img/group__circles-mobile.png);
+    content: url('./img/group__circles-mobile.png');
     position: absolute;
     z-index: -1;
     top: 5600px;
